@@ -71,9 +71,7 @@ const covid19ImpactEstimator = (data) => {
     * data.region.avgDailyIncomeInUSD * requestedTime(data.periodType, data.timeToElapse)
   );
 
+
   return { data, impact, severeImpact };
 };
 
-
-export default covid19ImpactEstimator;
-// module.exports = covid19ImpactEstimator;
